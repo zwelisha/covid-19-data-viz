@@ -62,7 +62,7 @@ def update_graph(selected_data):
         name=selected_data,
     )
     layout = graph_obj.Layout(
-        title="COVID-19 insights from March 2020 to June 2020 for the selected variable",
+        title=f"COVID-19 {selected_data} between March 2020 and June 2020",
         xaxis=dict(title="Date"),
         yaxis=dict(title=selected_data),
     )
