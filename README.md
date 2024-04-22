@@ -1,5 +1,5 @@
-# COVI-19 Data Visualisation
-
+# COVID-19 Data Visualisation
+Live Project: [View Dashboard](https://covid-19-data-viz.onrender.com)
 ## Description
 - Visualise the supplied data in a graph of some sort programmatically.
 - You may use any tools or languages that you would like (please do not use Excel).
@@ -45,6 +45,7 @@ There is one folder in this project with every file needed to run the code.
     app.py
     covid.json
     README.md
+    requirements.txt
 ```
 
 ### Formatting The Code
