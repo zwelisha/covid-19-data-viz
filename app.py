@@ -15,6 +15,7 @@ df = pd.DataFrame(data)
 df["Date"] = pd.to_datetime(df["Date"])
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div(
     children=[
