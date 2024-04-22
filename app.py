@@ -13,7 +13,7 @@ file.close()
 df = pd.DataFrame(data)
 
 df["Date"] = pd.to_datetime(df["Date"])
-dashboard_title = 'COVID-19 Data Analysis between March 2020 to June 2020'
+dashboard_title = "COVID-19 Data Analysis between March 2020 to June 2020"
 app = dash.Dash(__name__, title=dashboard_title)
 server = app.server
 
