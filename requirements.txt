@@ -4,4 +4,4 @@ dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-table==5.0.0
 plotly==5.21.0
-pandas=2.2.2
+pandas==2.2.2
